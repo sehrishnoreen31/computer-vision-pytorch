@@ -10,4 +10,8 @@ def relu(x):
     return(x > 0, x , 0) # if the element is greater than 0, return that element, Otherwise, return 0.
 
 def linear(x):
-    return x
+    return 
+
+def softmax(x):
+    return np.exp(x) / np.sum(np.exp(x))
+    
