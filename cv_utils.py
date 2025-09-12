@@ -1,6 +1,6 @@
 import numpy as np 
 
-# activation functuons
+# activation functions
 def sigmoid(x):
     return 1 / (1 + np.exp(-x))
 
